@@ -39,6 +39,16 @@ public class Book {
             return false;
         }
     }
+
+    public void printToScreen(){
+        Book book = this;
+        PrintToScreen.printToScreen(book);
+    }
+
+    public void printToFile() {
+        Book book = this;
+        PrintToFile.printToFile(book);
+    }
     //SRP
     // public void printToScreen() {
     //     Book book = this;
